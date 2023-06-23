@@ -20,7 +20,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./solution_desktop.jpg) and ![](./solution_mobile.jpg)
+![](./screenshot_desktop.jpg) and ![](./screenshot_mobile.jpg)
 
 ### Links
 
@@ -42,11 +42,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - editor: visual studio code
 
 ### What I learned
-Learned more about aligning and absolute/relative positioning. 
+Learned more about aligning and absolute/relative positioning. Making the background bubbles responsive did not work, for the mobile view it does not match the sample design.
 
 ### Continued development
 
-Learn more about positioning, especially centering within different elements (grid, flex, block...).
+Learn more about positioning, especially centering within different elements (grid, flex, block...). Want to understand why the background bubbles are not responsive.
 
 ### Useful resources
 
