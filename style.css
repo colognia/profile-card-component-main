@@ -1,0 +1,166 @@
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+Dark gray: hsl(0, 0%, 59%)
+
+Font size (name and stats): 18px
+
+Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    --darkcyan: hsl(185, 75%, 39%);
+    --darkblue: hsl(229, 23%, 23%);
+    --greyblue: hsl(227, 10%, 46%);
+    --lightgrey: #afb0b2;
+
+}
+
+body {
+    background-color: rgb(25, 161, 173);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#topbubble {
+    width: 70vw;
+    position: absolute;
+    top: -100%;
+    left: -20%;
+    z-index: 0;
+}
+
+#bottombubble {
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+/* card -----------------------------------------*/
+#maincontainer {
+    display: flex;
+    min-height: 100vh;
+}
+
+#cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 270px 1fr;
+    grid-template-rows: 300px;
+    margin: auto;
+
+}
+
+#carddiv {
+    z-index: 1;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+}
+
+#cardbanderole {
+    height: 35%;
+    border-radius: 13px 13px 0 0;
+
+}
+
+#carddiv #photo {
+    width: 31%;
+    height: 28%;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid white;
+}
+
+#personalinfo {
+    height: 40%;
+}
+
+#detailscontainer {
+    display: grid;
+    height: 25%;
+    border-top: 1px var(--lightgrey) solid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 0 9%;
+}
+
+#personalinfo {
+    padding-top: 25%;
+    text-align: center;
+}
+
+#personalinfo>p:first-of-type {
+    font-weight: 700;
+}
+
+#personalinfo span {
+    font-weight: 300;
+    color: grey;
+}
+
+#personalinfo>p:last-of-type {
+    color: grey;
+    font-size: 0.8em;
+    padding-top: 3%;
+}
+
+#detailscontainer p {
+    text-align: center;
+}
+
+#detailscontainer>div>p:first-of-type {
+    padding-top: 1.5em;
+    font-weight: 700
+}
+
+#detailscontainer>div>p:last-of-type {
+    font-size: 0.6em;
+    color: var(--lightgrey);
+    padding-top: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+/* footer ----------------------------*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footerdiv {
+    text-align: left;
+    font-size: 0.6em;
+}
+
+div#footerdiv p {
+    display: inline-block;
+    padding: 10px;
+}
