@@ -1,10 +1,10 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [My process](#my-process)
@@ -12,20 +12,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Author](#author)
 
 ## Overview
 
-2nd challenge for front end developers.
+3rd challenge for front end developers.
 
 ### Screenshot
 
-![](./solution_desktop.png) and ![](./solution_mobile.png)
+![](./solution_desktop.jpg) and ![](./solution_mobile.jpg)
 
 ### Links
 
-- Solution URL: [https://github.com/colognia/order-summary-component-main.git]
-- Live Site URL: [https://colognia.github.io/order-summary-component-main/]
+- Solution URL: [https://github.com/colognia/profile-card-component-main.git]
+- Live Site URL: [https://colognia.github.io/profile-card-component-main/]
 
 ## My process
 
@@ -42,7 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - editor: visual studio code
 
 ### What I learned
-Learned more about aligning and absolute/relative positioning. You can not set this transparent background image as an css-background image for the body, because then you can not position it on top of page.
+Learned more about aligning and absolute/relative positioning. 
 
 ### Continued development
 
@@ -50,8 +50,8 @@ Learn more about positioning, especially centering within different elements (gr
 
 ### Useful resources
 
-freecodecamp.com
-https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+developers.mozilla.org
+w3schools
 
 ## Author
 

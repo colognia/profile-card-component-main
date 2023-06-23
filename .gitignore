@@ -15,5 +15,4 @@
 .DS_Store
 
 .prettierignore
-screenshot_desktop.jpg
-screenshot_mobile.jpg
+README-template.md
