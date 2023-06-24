@@ -35,14 +35,30 @@ Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 body {
     background-color: rgb(25, 161, 173);
     min-height: 100vh;
-    display: flex;
-    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-    /*erster fängt oben links an Startpunkt 50 von rechts + 50 von unten, 2. unten rechts. Beim Zusamschieben läuft einfach raus*/
-    background-repeat: no-repeat, no-repeat;
+    width: 100vw;
+}
+
+#topbubble {
+    width: 70vw;
+    position: absolute;
+    top: -100%;
+    left: -20%;
+    z-index: 0;
+}
+
+#bottombubble {
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
 }
 
 /* card -----------------------------------------*/
+#maincontainer {
+    display: flex;
+    min-height: 100vh;
+}
 
 #cardcontainer {
     display: grid;
